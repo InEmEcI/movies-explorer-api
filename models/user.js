@@ -2,7 +2,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const isEmail = require('validator/lib/isEmail');
-// const isUrl = require('validator/lib/isURL');
 
 const UNAUTHORIZED_ERROR = require('../utils/errors/UnauthorizedError');
 
@@ -26,7 +25,6 @@ const userSchema = new mongoose.Schema({
     required: true,
     minlength: 2,
     maxlength: 30,
-    // default: 'Жак-Ив Кусто',
   },
 }, { versionKey: false });
 
