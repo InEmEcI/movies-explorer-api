@@ -1,7 +1,7 @@
 {
-  "name": "14_sprint",
+  "name": "movies-explorer-api",
   "version": "1.0.0",
-  "description": "Mesto project: registration and authorization on the backend",
+  "description": " Diploma project 'Web developer' ",
   "main": "app.js",
   "scripts": {
     "start": "node app",
